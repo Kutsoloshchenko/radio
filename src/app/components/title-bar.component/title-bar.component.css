@@ -1,0 +1,60 @@
+/*Title bar css stiles */
+
+
+.link {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 0 5px 0 5px;
+    height: 100%;
+}
+
+.link:hover {
+    background: #C9EBFF;
+    cursor: pointer;
+}
+
+.links {
+    height: 100%;
+}
+
+.link a{
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.link button{
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.label-item a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 28px;
+}
+
+.container {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    right: 2px;
+    margin: 0, 5px;
+    background-color: #77CBFF;
+    color: white;
+    height: 55px;
+    max-width: 1842px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

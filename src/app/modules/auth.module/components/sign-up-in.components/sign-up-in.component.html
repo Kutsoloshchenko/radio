@@ -1,0 +1,13 @@
+<div class="form">
+    <h3>{{title}}</h3>
+    <div class="input-form" *ngFor = "let line of components">
+        <input *ngIf="line.name === 'Password*' || line.name === 'Repeted rassword*'" type="password" [(ngModel)]="line.value" placeholder={{line.name}}>
+        <input *ngIf="line.name !== 'Password*' && line.name !== 'Repeted rassword*'" [(ngModel)]="line.value" placeholder={{line.name}}>
+        <label class="error" *ngIf="line.error !== 'None' && line.error !== 'Ok'">{{line.error}}</label>
+        <label class="ok" *ngIf="line.error === 'Ok'">OK</label>
+    </div>
+
+    <button (click)="submit()">Submit</button>
+    
+
+</div>

@@ -1,0 +1,19 @@
+
+<div class="media-player">
+    <audio id="player">
+        <source src="http://134.132.200.153:8080/stream.mp3">
+    </audio>
+
+    <div class ="control-block">
+        <img *ngIf="isPlaing" (click)="stop()" src = "/assets/images/stop_button.png">
+        <img *ngIf="isPlaing==false" (click)="play()" src = "/assets/images/play_button.png">
+
+        <label>{{songName}}</label>
+
+        <div id="slidecontainer">
+                <input type="range" min="0" max="100" value="100" class="slider" id="myRange" (input)="volumeChange($event.target.value)">
+        </div>
+
+    </div>
+</div>
+

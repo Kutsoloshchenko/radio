@@ -1,0 +1,20 @@
+.main {
+    margin: 0px auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+beartato-component {
+    margin: 25px;
+}
+
+chat-component {
+    width: 500px;
+    min-width:  300px;
+    height: 500px;
+    border: 1px solid #C9EBFF;
+    background: #C9EBFF;
+    border-radius: 4px;
+}

@@ -1,0 +1,42 @@
+.messages-area {
+    border: 2px solid #C9EBFF;
+    background: #C9EBFF;
+    width: 100%;
+}
+
+.message {
+    height: 100%;
+    margin: 2px;
+    color: white;
+    max-width: 300px;
+    overflow: hidden;
+    float:left;
+    word-break:break-all;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.author {
+    float:left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.chat-message {
+    border: 2px solid #77CBFF;
+    border-radius: 4px;
+    background: #77CBFF;
+    margin: 2px;
+    overflow: hidden;
+}
+
+textarea {
+    margin: 15px auto;
+    display: inline;
+    width: 75%;
+}
+
+.text-area {
+    display: flex;
+    align-content: center;
+}

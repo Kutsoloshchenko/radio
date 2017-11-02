@@ -1,0 +1,13 @@
+<h1 *ngIf="username">Hello {{username}}</h1>
+<h1 *ngIf="username == null">Hello!</h1>
+<div class="item">
+    <div class="messages-area" *ngIf="messages.length >= 1" >
+        <div class='chat-message' *ngFor = "let entry of messages">
+            <dir class="author">{{entry.author}}:</dir>
+            <dir class = "message">{{entry.message}}</dir>
+        </div>
+    </div>
+    <div class="text-area">
+        <textarea [(ngModel)] = "messageText" (keydown.enter)="send();false" cols="40" rows="5" placeholder="enter your message here..."></textarea>
+    </div>
+</div>

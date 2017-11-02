@@ -1,0 +1,6 @@
+.TitleBar {
+    display: inline;
+    background-color: blue;
+    color: white;
+    min-height: 25px;
+}

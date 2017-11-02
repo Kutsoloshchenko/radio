@@ -1,0 +1,72 @@
+/*Styles for both sign up and sign in components */
+
+.form {
+    margin: 0 auto;
+    margin-top: 150px;
+    float: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    max-width: 260px;
+    max-height: 210;
+}
+
+.form h3 {
+    background-color: #77CBFF;
+    color: white;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.ok {
+    color: green;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.input-form input{
+
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    height: 25px;
+
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    border-bottom: 1px solid #77CBFF;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 44.5px;
+}
+
+.form button {
+
+    min-width: 60px;
+    min-height: 25px;
+    display: block;
+    margin: 10px auto 10px;
+    background-color: #77CBFF;
+    color: white;
+    border: 1px solid #77CBFF;
+    border-radius: 4px;
+    text-align: center;
+    background-image: none;
+    -webkit-appearance: none;
+
+}
+
+.form button:hover {
+    
+    background: #C9EBFF;
+    cursor: pointer;
+}

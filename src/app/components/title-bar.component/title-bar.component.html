@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="label-item">
+        <a class= "label-item" routerLink="main" routerLinkActive = "active">DOPE.FM</a>
+    </div>
+    <div *ngIf="username==null" class= "links">
+        <div class="link">
+            <a routerLink="sign_in" routerLinkActive = "active">Sign In</a>
+        </div>
+        <div class="link">
+                <a routerLink="sign_up" routerLinkActive = "active">Sign Up</a>
+        </div>
+    </div>
+    <div *ngIf="username" class="links">
+            <div class="link">
+                    <a (click) = "logOut()" routerLink="sign_up" routerLinkActive = "active">Sign Out</a>
+            </div>
+    </div>
+</div>
